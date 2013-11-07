@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/CocoaPodLibraryTest"
+  s.homepage     = "https://github.com/mikeando/CocoaPodLibraryTest"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "Michael Anderson" => "michael.anderson@runwithrobots.com" }
   s.source       = { :git => "https://github.com/mikeando/CocoaPodLibraryTest.git", :tag => "v0.0.1" }
