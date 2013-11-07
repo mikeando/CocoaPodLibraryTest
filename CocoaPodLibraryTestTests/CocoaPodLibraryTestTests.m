@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "CocoaPodLibraryTest.h"
 
 @interface CocoaPodLibraryTestTests : XCTestCase
 
@@ -28,7 +29,8 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+  CocoaPodLibraryTest * obj = [[CocoaPodLibraryTest alloc] init];
+  XCTAssertNotNil(obj, @"obj should not be nil");
 }
 
 @end
