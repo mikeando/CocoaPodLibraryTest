@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/mikeando/CocoaPodLibraryTest.git", :tag => "0.0.1" }
+  s.source       = { :git => "http://github.com/mikeando/CocoaPodLibraryTest.git", :tag => "v0.0.1" }
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
 
 
